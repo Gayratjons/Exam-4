@@ -17,7 +17,7 @@ elInputBtn.addEventListener('click', async ()=>{
             })
         let b = await a.json();
         if (b.token)  {
-            location = 'index.html';
+            location = 'cards.html';
         }else{
             location.reload();
         }
